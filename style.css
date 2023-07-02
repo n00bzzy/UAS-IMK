@@ -1,0 +1,135 @@
+body {
+  padding: 0px;
+  font-family: poppins;
+  margin: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container{
+    background-color: #1E1E1E;
+      padding-bottom: 500px;
+}
+
+a, h1, h2, h3, h4, h5, span{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+i{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 48px;
+}
+
+.meja p{
+  font-size: 48px;
+  margin: 0px;
+}
+
+.navbar-brand{
+  font-size: 48px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.navbar-brand:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav-link{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.btn-back{
+  background-color: #F0A500;
+  border-radius: 15px;
+}
+
+.meja{
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.bx-history{
+  color: #1E1E1E;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 48px;
+  margin-right: 15px;
+}
+
+.imgbanner{
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.cat-card{
+    background-color: #DCDCDC;
+    border-radius: 24px;
+    border: none;
+    transition: 0.3s all;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 11px;
+}
+
+.cat-card:hover{
+    background-color: #F0A500;
+    cursor: pointer;
+    transition: 0.3s all;
+    text-decoration: none;
+}
+
+.cat-card p{
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.cat-card.active{
+    background-color: #F0A500;
+    cursor: pointer;
+    transition: 0.3s all;
+    text-decoration: none;
+}
+
+.menu-card{
+    background-color: #DCDCDC;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s all;
+    text-decoration: none;
+    display: flex;
+    padding: 20px;
+}
+
+.food-desc{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.food-desc h3{
+  font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.food-desc li, .food-desc p{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 0px;
+}
