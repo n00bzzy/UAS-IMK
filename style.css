@@ -254,7 +254,7 @@ i{
   margin-right: -14px;
 }
 .carousel-item {
-    margin-right: 0;
+    margin-right: 20px;
     flex: 0 0 50%;
     display: block;
 }
