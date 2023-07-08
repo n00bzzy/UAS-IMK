@@ -410,10 +410,21 @@ i{
   text-decoration: none;
 }
 
-.pembayaran {
+.pembayaran{
+  background-color: #FFF;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.e-wallet {
   margin-top: 100px;
-  margin-left: -12px;
-  margin-right: -12px;
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .pesanan-berlangsung h2 {
@@ -429,4 +440,42 @@ i{
 }
 .food-header i{
   font-size: 30px;
+}
+
+.qris{
+  width: 70px;
+  margin-right: 10px;
+}
+
+.qris-button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.qris-button h1{
+  font-size: 40px;
+  font-weight: 500;
+  color: #1E1E1E;
+  margin-bottom: 0;
+}
+
+.button-bayar{
+  min-width: 100%;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.ewallet-txt{
+  font-size: 20px;
+  font-weight: 500;
+  color: #1E1E1E;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ewallet-txt h1{
+  margin-bottom: 0;
 }
