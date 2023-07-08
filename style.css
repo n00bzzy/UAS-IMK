@@ -485,3 +485,137 @@ i{
   width: 990px;
   background-size: cover;
 }
+
+.manajer-card {
+  background-color: #DCDCDC;
+  border: none;
+  transition: 0.3s all;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+}
+
+.manajer-card:hover {
+  background-color: #F0A500;
+  cursor: pointer;
+  transition: 0.3s all;
+  text-decoration: none;
+}
+
+.manajer-card p {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.manajer-card.active {
+  background-color: #F0A500;
+  cursor: pointer;
+  transition: 0.3s all;
+  text-decoration: none;
+}
+
+.manajer-menu-card {
+  border: none;
+  transition: 0.3s all;
+  text-decoration: none;
+  display: flex;
+  padding: 20px;
+}
+
+.tersedia-card{
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #D9D9D9;
+  color: #000;
+}
+
+.manajer-headercard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F0A500;
+  margin: 0 -18px;
+  font-size: 30px;
+}
+
+.food-manajer-header h3{
+  font-size: 18px;
+}
+
+.food-manajer-header p {
+  font-size: 14px;
+}
+
+.detail-laporan{
+  background: #1E1E1E;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  color: #FFF;
+  width: 25%;
+  text-align: center;
+  box-shadow: none
+}
+
+.table-header{
+  background-color: #F0A500;
+  font-size: 20px;
+  color: #FFF;
+  padding: 10px;
+  margin: 0 1px;
+}
+
+.table-body {
+  background-color: #D9D9D9;
+  font-size: 16px;
+  color: #000;
+  padding: 10px;
+  margin: 0 1px;
+}
+
+.total-penjualan{
+  background-color: #F0A500;
+  font-size: 20px;
+  color: #FFF;
+  padding: 10px;
+  margin: 0 -16px;
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.total-penjualan h3{
+  font-size: 20px;
+  color: #FFF;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.total-penjualan p {
+  font-size: 16px;
+  color: #FFF;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.total-penjualan h1 {
+  font-size: 35px;
+  color: #FFF;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.card-stock{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.card-penjualan{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
