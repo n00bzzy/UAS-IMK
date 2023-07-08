@@ -410,6 +410,12 @@ i{
   text-decoration: none;
 }
 
+.pembayaran {
+  margin-top: 100px;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
 .pesanan-berlangsung h2 {
   font-size: 26px;
   font-weight: 600;
