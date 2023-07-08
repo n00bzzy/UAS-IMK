@@ -378,3 +378,26 @@ i{
 .button-pemesanan{
   font-size: 25px;
 }
+
+.kupon{
+  background-color: #F2CD5C;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kupon i{
+  font-size: 40px;
+  color: #F0A500;
+  text-decoration: none;
+}
+
+.pesanan-berlangsung h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
