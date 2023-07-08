@@ -251,7 +251,7 @@ i{
   text-decoration: none;
 }
 
-}
+
 
 .detail-card{
   background-color: #FFFFFF;
@@ -327,7 +327,8 @@ i{
 .button-nambah-kurang{
   background: #F0A500;
   border-radius: 20px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  box-shadow: none;
+  flex-basis: 30%;
 }
 .button-nambah-kurang span{
   width: 100%;
@@ -341,6 +342,18 @@ i{
   pointer-events: none;
 }
 
+.foto-rekomendasi {
+  height: 170px;
+  max-width: 130px;
+  background-size: cover;
+}
+
+.cart {
+  background-color: #F0A500;
+  margin: 12px -12px;
+  padding: 12px;
+}
+
 .cart .btn-keranjang{
     background-color: #FF5858;
     color: #F6FBF4;
@@ -350,6 +363,7 @@ i{
     font-weight: 500;
     text-decoration: none;
     transition: 0.3s all;
+    flex-basis: 70%;
 }
 
 .cart .btn-keranjang:hover{
@@ -400,4 +414,13 @@ i{
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 0px;
+}
+.UK-Krenjang{
+  font-size: 30px;
+}
+.opasity{
+  opacity: 60%;
+}
+.food-header i{
+  font-size: 30px;
 }
