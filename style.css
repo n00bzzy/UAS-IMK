@@ -479,3 +479,9 @@ i{
 .ewallet-txt h1{
   margin-bottom: 0;
 }
+
+.foto-rekomendasi2 {
+  height: 278px;
+  width: 990px;
+  background-size: cover;
+}
