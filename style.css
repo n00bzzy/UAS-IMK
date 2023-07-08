@@ -366,3 +366,15 @@ i{
 .cart .btn-secokeranjangnd:focus{
     box-shadow: 5px 4px 50px rgba(0, 0, 0, 0.06);
 }
+
+
+/* pesanan-berlangsung */
+
+.pesanan-berlangsung h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.button-pemesanan{
+  font-size: 25px;
+}
