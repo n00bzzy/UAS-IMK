@@ -653,3 +653,8 @@ a {
   cursor: pointer;
   transition: 0.3s all;
 }
+
+.bgcolor-yellows {
+  background-color: #F0A500;
+  color: #FFF;
+}
