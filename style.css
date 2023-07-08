@@ -619,3 +619,37 @@ i{
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+.bgcolor-yellow{
+  background-color: #F0A500;
+  margin: 0 -12px;
+}
+
+.bgcolor-yellow i,
+a {
+    color: #1E1E1E !important;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.kasir .card{
+  border-radius: 5px;
+  border: none;
+  background-color: #D9D9D9;
+  color: #1E1E1E;
+  font-weight: 600;
+  font-size: 40px;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex-basis: 20%;
+  text-align: center;
+  transition: 0.3s all;
+
+}
+
+.kasir .card:hover{
+  background-color: #44FB04;
+  color: #1E1E1E;
+  cursor: pointer;
+  transition: 0.3s all;
+}
