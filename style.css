@@ -590,6 +590,10 @@ i{
   padding-left: 16px;
 }
 
+.bg-orange{
+  background-color: #F0A500;
+}
+
 .total-penjualan h3{
   font-size: 20px;
   color: #FFF;
