@@ -1,14 +1,14 @@
 $(document).ready(function () {
-  $(".cat-card").click(function () {
+  $(".manajer-card").click(function () {
     $(this).addClass("active").siblings().removeClass("active");
     var filter = $(this).attr("data-filter");
     if (filter == "all") {
-      $(".menu-card").show(0);
+      $(".manajer-menu-card").show(0);
     } else {
-      $(".menu-card")
+      $(".manajer-menu-card")
         .not("." + filter)
         .hide(0);
-      $(".menu-card")
+      $(".manajer-menu-card")
         .filter("." + filter)
         .show(0);
     }
