@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bayar</title>
+    <title>Pesanan Berlangsung</title>
 
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 
     <!--CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../style.css">
 
     <!--Boxicons CSS-->
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
@@ -35,73 +35,61 @@
             <nav class="navbar navbar-expand-lg navbar-light py-4 bgcolor" data-aos="fade-down">
                 <a href="../../index.html"><button class="btn"><i class='bx bx-arrow-back'></i></button></a>
 
-                <a class="navbar-brand" href="#">Bayar</a>
+                <a class="navbar-brand"  >Pesanan Selesai</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarResponsive" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <div class="navbar-nav ms-auto">
-                        <button class="btn"><i class='bx bxs-bell' style='color:#ffffff'></i></button>
-                        <button class="btn"><i class='bx bx-undo' style='color:#ffffff'></i></button>
-                    </div>
-                </div>
+                
             </nav>
         </header>
 
-        <section class="card d-flex align-content-between p-3 ">
-            <h1 class="text-dark">No. Meja</h1>
-            <h1 class="text-secondary">1</h1>
+        <section class="banner">
+            <img src="../../img/banner pesanan berlangsung.png" class="imgbanner" alt="">
+        </section>
+
+        <section class="card p-3">
+            <h1 class="text-dark">Resi</h1>
+            <h1 class="text-secondary">2023.05.14 18:50:20</h1>
+        </section>
+
+        <section class="card d-flex align-content-between p-3 mt-2">
             <div class="header-total">
-                <h1 class="text-dark">Produk</h1>
-                <h1 class="text-secondary">
-                    #Order1.............................................................................................18.50
+                <h1 class="text-dark">
+                    #Order1............................................................................................18.50
                 </h1>
                 <div class="d-flex flex-row justify-content-between">
                     <div class="d-flex">
-                        <img src="img/nonallucanit3-thumb.png" alt="">
-                        <div class="d-flex flex-column mx-3">
+                        <h1 class="text-secondary">x1</h1>
+                        <div class="d-flex flex-column">
                             <h1 class="text-dark">Paket Beef Holic</h1>
-                            <h1 class="text-secondary">24 pcs</h1>
+                            
                         </div>
                     </div>
                     <div class="d-flex">
                         <div class="d-flex flex-column">
-                            <h1 class="text-dark">Rp 400.000</h1>
-                            <h1 class="text-secondary d-flex align-items-center"><i class='bx bx-dots-horizontal-rounded bx-flashing'
-                                    style='color:#1E1E1E'></i>Menyiapkan</h1>
+                            <h1 class="text-dark">Rp 420.000</h1>
+                
                         </div>
                     </div>
                 </div>
             </div>
             <div class="d-flex justify-content-between pt-5">
-                <h1 class="text-black">Total</h1>
-                <h1 class="text-black">Rp. 400.000</h1>
+                <h1 class="text-secondary">Total</h1>
+                <h1 class="text-secondary">Rp. 400.000</h1>
             </div>
-        </section>
-        <section class="card p-3 mt-3">
-            <h1 class="text-dark">Kupon</h1>
-            <div class="kupon card d-flex flex-row p-4">
-                <i class='bx bxs-coupon bx-flashing' style="color: #fff"></i>
-                <h2 class="text-dark mx-3">Gunakan kupon untuk mendapatkan Diskon</h2>
+            <div class="d-flex justify-content-between ">
+                <h1 class="text-secondary">PPN 5%</h1>
+                <h1 class="text-secondary">Rp. 20.000</h1>
             </div>
-            <div class="e-wallet">
-                <div class="ewallet-txt">
-                    <h1 class="text-dark">E-Wallet</h1>
-                </div>
-                <div class="qris-button">
-                    <img src="img/QRIS (Quick Response Code Indonesia Standard) Logo (SVG) - Vector69Com.svg"
-                        class="qris">
-                    <h1 class="text-dark">
-                        ></h1>
-                </div>
+            <div class="d-flex justify-content-between">
+                <h1 class="text-secondary">Total Bayar</h1>
+                <h1 class="text-black" style="font-size: 40px">Rp. 420.000</h1>
             </div>
-            <button type="button" class="btn btn-danger button-bayar">Bayar Sekarang Rp 400.000</button>
-        
         </section>
 
-       
+        
     </div>
 
     <!-- jquery cdn link  -->

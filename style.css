@@ -47,14 +47,11 @@ i{
 .navbar-brand{
   font-size: 36px;
   font-weight: bold;
-  color: #FFFFFF;
+  color:#F0A500 !important; 
   text-decoration: none;
 }
 
-.navbar-brand:hover{
-  color: #FFFFFF;
-  text-decoration: none;
-}
+
 
 .nav-link{
   color: #FFFFFF;
@@ -421,7 +418,7 @@ i{
 }
 
 .e-wallet {
-  margin-top: 100px;
+  margin-top: 10px;
   display: flex;
   padding-top: 20px;
   justify-content: space-between;
@@ -668,4 +665,13 @@ a {
   height: 100px;
   width: 100px;
   background-size: cover;
+}
+
+.foto-Syarat{
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+}
+.text-orange{
+  color:#F0A500;
 }
