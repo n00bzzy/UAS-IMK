@@ -1,28 +1,22 @@
-// Script untuk memfilter menu makanan dan minuman
-$(document).ready(function () {
-  
-  // Menambahkan class active pada elemen yang diklik, sehingga akan memiliki warna kuning
-  $(".cat-card").click(function () {
-    $(this).addClass("active").siblings().removeClass("active");
+// Script untuk tombol tambah dan kurang
+const plus = document.querySelector(".plus"), // Tombol tambah
+  minus = document.querySelector(".minus"), // Tombol kurang
+  num = document.querySelector(".num"); // Element angka
+let a = 1; // Variabel angka awal
 
-    // Mengambil nilai atribut "data-filter" dari elemen yang diklik
-    var filter = $(this).attr("data-filter");
+// Event handler untuk tombol tambah
+plus.addEventListener("click", () => {
+  a++; // Menambahkan nilai a
+  a = a < 10 ? +a : a; // Mengecek apakah a kurang dari 10, jika ya maka angka 0 akan dihilangkan
+  num.innerText = a; // Mengubah teks pada elemen angka
+});
 
-    // Jika filter bernilai "all", maka semua menu akan ditampilkan
-    if (filter == "all") {
-      $(".menu-card").show(0);
-
-      // Menu yang ditampilkan adalah semua menu yang ada, dari makanan hingga minuman
-    } else {
-      // Menyembunyikan menu yang tidak sesuai dengan filter yang dipilih
-      $(".menu-card")
-        .not("." + filter)
-        .hide(0);
-
-      // Menampilkan menu yang sesuai dengan filter yang dipilih
-      $(".menu-card")
-        .filter("." + filter)
-        .show(0);
-    }
-  });
+// Event handler untuk tombol kurang
+minus.addEventListener("click", () => {
+  // Mengecek apakah a lebih dari 1, jika ya maka nilai a akan dikurangi
+  if (a > 1) {
+    a--; // Mengurangi nilai a
+    a = a < 10 ? +a : a; // Mengecek apakah a kurang dari 10, jika ya maka angka 0 akan dihilangkan
+    num.innerText = a; // Mengubah teks pada elemen angka
+  }
 });
