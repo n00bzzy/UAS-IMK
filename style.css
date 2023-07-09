@@ -739,3 +739,26 @@ a {
   font-size: 30px !important;
   pointer-events: none;
 }
+
+
+/* login */
+.login .card {
+  border-radius: 15px;
+  border: none;
+  background-color: #D9D9D9;
+  color: #1E1E1E;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.login .card:hover {
+  background-color: #F0A500;
+  color: #1E1E1E;
+  transition: 0.3s all;
+  cursor: pointer;
+}
