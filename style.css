@@ -23,7 +23,7 @@ body {
 }
 
 .p-500{
-  padding-bottom: 500px;
+  padding-bottom: 50px;
 }
 
 a, h1, h2, h3, h4, h5, span{
@@ -663,3 +663,9 @@ a {
   #toggleButton {
     background-color: #44FB04;
   }
+
+.foto-makanan{
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+}
