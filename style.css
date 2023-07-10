@@ -762,3 +762,22 @@ a {
   transition: 0.3s all;
   cursor: pointer;
 }
+
+.menu-card2{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s all;
+    text-decoration: none;
+    display: flex;
+    padding: 20px;
+}
+.menu-card3{
+    background-color: #F0A500;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s all;
+    text-decoration: none;
+    display: flex;
+    padding: 20px;
+}
